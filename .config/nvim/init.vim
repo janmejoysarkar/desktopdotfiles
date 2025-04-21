@@ -25,3 +25,6 @@ colorscheme sorbet
 "Copy buffers
 nnoremap Y "+y
 vnoremap Y "+y
+set hlsearch "Highlight searched item
+
+
