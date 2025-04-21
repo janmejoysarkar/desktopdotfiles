@@ -21,3 +21,7 @@ set encoding=UTF-8
 set visualbell
 set scrolloff=5
 colorscheme sorbet
+
+"Copy buffers
+nnoremap Y "+y
+vnoremap Y "+y
