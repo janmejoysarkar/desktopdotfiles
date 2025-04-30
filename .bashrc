@@ -31,7 +31,7 @@ export WINEPREFIX='/home/janmejoyarch/.wineprefix/office2007'
 export random='/home/janmejoyarch/Dropbox/Janmejoy_SUIT_Dropbox/random_sync'
 export QT_XCB_GL_INTEGRATION=none #Disables OpenGL for GLX related issues in some software.
 
-TERMINAL='/bin/kgx'
+TERMINAL='/bin/alacritty'
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
