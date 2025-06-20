@@ -5,7 +5,16 @@ Plug 'https://github.com/ryanoasis/vim-devicons' " Developer Icons
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
-
+"""
+"Remaps for CoC completion:
+" Use <Tab> and <S-Tab> to navigate through popup menu
+inoremap <silent><expr> <TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
+inoremap <silent><expr> <S-TAB> pumvisible() ? "\<C-p>" : "\<S-TAB>"
+" Use <CR> to confirm completion
+inoremap <silent><expr> <CR> pumvisible() ? coc#_select_confirm() : "\<CR>"
+" Trigger completion manually
+inoremap <silent><expr> <C-Space> coc#refresh()
+"""
 
 "General Config
 
