@@ -25,7 +25,7 @@ x-scheme-handler/http=brave-browser.desktop;
 x-scheme-handler/https=brave-browser.desktop;
 
 [Default Applications]
-application/fits=gimp.desktop
+application/fits=ds9.desktop
 application/pdf=org.gnome.Evince.desktop
 application/vnd.ms-excel=libreoffice-calc.desktop
 application/vnd.openxmlformats-officedocument.presentationml.presentation=libreoffice-impress.desktop
