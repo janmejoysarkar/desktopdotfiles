@@ -52,7 +52,7 @@ interval=10
 
 [time]
 label= 
-command=date '+%H:%M:%S'
+command=echo "$(date '+%H:%M %Z') | $(TZ=Europe/Berlin date '+%H:%M %Z')"
 interval=1
 
 [separator]
