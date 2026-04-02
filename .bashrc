@@ -9,15 +9,13 @@ mkcd() { mkdir -p "$1" && cd "$1"; }
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-alias vi='vim'
-alias vpn='netExtender --username=janmejoy.sarkar --password=J@nMeJoY#*p*2022 --domain=LocalDomain --auto-reconnect moon.iucaa.in:4433'
-alias ql='python3 /home/janmejoyarch/Dropbox/Janmejoy_SUIT_Dropbox/scripts/quick_look.py'
 alias sc='python3 /home/janmejoyarch/Dropbox/Janmejoy_SUIT_Dropbox/scripts/suncenter_plot.py'
-alias qlt='python3 /home/janmejoyarch/Dropbox/Janmejoy_SUIT_Dropbox/scripts/quick_look_tile.py'
+alias ql='python3 /home/janmejoyarch/Dropbox/Janmejoy_SUIT_Dropbox/scripts/visualization_tools_git/quick_look.py'
+alias qlt='python3 /home/janmejoyarch/Dropbox/Janmejoy_SUIT_Dropbox/scripts/visualization_tools_git/quick_look_tile.py'
+alias qls='python $HOME/Dropbox/Janmejoy_SUIT_Dropbox/scripts/visualization_tools_git/quick_look_suit.py'
 alias dropbox='/home/janmejoyarch/dropbox.py'
 alias token='cat ~/Dropbox/Janmejoy_SUIT_Dropbox/scripts/github_token.txt'
 alias r='xdg-open `fzf --tmux=right`'
-alias qls='python $HOME/Dropbox/Janmejoy_SUIT_Dropbox/scripts/quick_look_suit.py'
 alias dt="date +'%H:%M:%S %Z'; TZ=Europe/Berlin date +'%H:%M:%S %Z'"
 
 export PS1="\[\033[01;35m\]λ\[\e[00;220m\] \[\e[38;5;223m\]\w\[\033[0m\] \n ❯ "
